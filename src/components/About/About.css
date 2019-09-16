@@ -1,0 +1,41 @@
+.about{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgb(80, 76, 76);
+    font-family: "Autour One";
+}
+.about article{
+    width: 70%;
+    text-align: center;
+    margin: 30px;
+}
+.about img{
+    border-radius: 50%;
+    border: rgba(255, 72, 0, 0.418) solid 2px;
+    height: 250px;
+    width: 250px;
+}
+.about p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px){
+    .about article{
+        width: 80%;
+        margin: 30px;
+    }
+    .about img{
+        height: 150px;
+        width: 150px;
+    }
+    .about p{
+        font-size: 12px;
+    }
+}

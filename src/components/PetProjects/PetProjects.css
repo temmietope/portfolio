@@ -1,0 +1,84 @@
+.pet_projects{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.pet_projects h1{
+    font-size: 2.3em;
+    font-weight: bolder;
+    color: rgb(56, 54, 54);
+    font-family: "Autour One";
+}
+.pet_projects section{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: rgb(80, 76, 76);
+}
+.pet_projects section article{
+    flex: 0 0 400px;
+    height: 300px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgb(85, 79, 79);
+    border-radius: 6px;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 20% 35% 20% 25%;
+    font-weight: bold;
+    font-family: "Autour One"
+}
+.pet_projects a{
+    color: inherit
+}
+.pet_projects h3{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(68, 63, 63);
+    font-family: "Kavoon";
+}
+.pet_projects .tech-stack{
+    border-top: 2px solid rgba(255, 72, 0, 0.432);
+    padding: 5px;
+}
+.pet_projects button{
+    padding: 12px 40px;
+    border: none;
+    background-color: rgba(255, 72, 0, 0.432);
+    border-radius: 7%;
+    color: rgb(95, 89, 89);
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 768px){
+    .pet_projects h1{
+        font-size: 1.5em;
+        margin: none;
+    }
+    .pet_projects section{
+        padding: 10px;
+        color: rgb(80, 76, 76);
+    }
+    .pet_projects section article{
+        flex: 0 0 250px;
+        height: 200px;
+        padding: 10px;
+        margin: 10px;
+    }
+    .pet_projects h3{
+        font-size: 12px;
+    }
+    .pet_projects p{
+        font-size: 9px
+    }
+    .pet_projects button{
+        padding: 6px 16px;
+        border-radius: 4%;
+        font-size: 6px
+    }    
+}

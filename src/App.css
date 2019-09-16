@@ -1,0 +1,14 @@
+.app{
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+.wrapper{
+    margin-top: 80px;
+    background-color: rgba(255, 72, 0, 0.068);
+}
+@media screen and (max-width: 768px){
+    .wrapper{
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,48 @@
+.tech_stack{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    font-family: "Autour One"
+}
+.tech_stack h1{
+    font-size: 2.3em;
+    font-weight: bolder;
+    color: rgb(56, 54, 54);
+    font-family: "Autour One";
+}
+.tech_stack ul{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 80%;
+    padding: 10px;
+    box-sizing: border-box;
+    color: rgb(39, 12, 2)
+
+}
+.tech_stack li{
+    list-style: none;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 18px
+}
+
+@media screen and (max-width: 768px){
+    .tech_stack h1{
+        font-size: 1.5em;
+        margin: none;
+    }
+    .tech_stack ul{
+        margin-top: none;
+        height: 60px;
+        width: 90%;    
+    }
+    .tech_stack li{
+        font-size: 10px
+    }
+}

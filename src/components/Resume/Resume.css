@@ -1,0 +1,30 @@
+.resume{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-flow: column wrap;
+}
+.resume h1{
+    font-size: 2.3em;
+    font-weight: bolder;
+    color: rgb(56, 54, 54);
+    font-family: "Autour One";
+}
+.resume section{
+    font-weight: bolder;
+    color: rgb(56, 54, 54)
+}
+.resume a{
+    color: inherit
+}
+
+@media screen and (max-width: 768px){
+    .resume h1{
+        font-size: 1.5em;
+        margin: none
+    }
+    .resume img{
+        width: 280px
+    }
+}

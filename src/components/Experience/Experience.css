@@ -1,0 +1,69 @@
+.experience{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center
+}
+.experience section{
+    width: 70%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.experience section article{
+    flex: 0 0 250px;
+    max-width: 400px;
+    box-sizing: border-box;
+    border-bottom: 2px solid rgba(66, 64, 64, 0.438);
+    margin: 10px 10px;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 20% 25% 12% 40%;
+    font-family: "Autour One"
+}
+.org{
+    font-style: italic;
+}
+.job-description{
+    border-top: rgba(255, 72, 0, 0.774) solid 2px
+}
+.experience h1{
+    font-size: 2.3em;
+    font-weight: bolder;
+    color: rgb(56, 54, 54);
+    font-family: "Autour One";
+}
+.experience h5{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(68, 63, 63);
+    font-family: "Kavoon";
+}
+
+@media screen and (max-width: 768px){
+    .experience section{
+        width: 80%;
+    }
+    .experience section article{
+        flex: 0 0 250px;
+        max-width: 350px;
+        padding: 12px;
+    }
+    .experience h1{
+        font-size: 1.5em;
+        margin: none;
+    }
+    .experience h5{
+        font-size: 12px;
+    }
+    .experience p{
+        font-size: 10px
+    }
+    .experience span{
+        font-size: 10px
+    }
+    
+}

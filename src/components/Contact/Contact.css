@@ -1,0 +1,47 @@
+.contact{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+.contact h1{
+    font-size: 2.3em;
+    font-weight: bolder;
+    color: rgb(56, 54, 54);
+    font-family: "Autour One"
+}
+.contact section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+}
+.contact section span{
+    flex: 0 0 14%;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 35px;
+    border-radius: 10px;
+}
+.contact section span:hover{
+    background-color: rgba(240, 197, 180, 0.904);
+}
+
+@media screen and (max-width: 768px){
+    .contact h1{
+        font-size: 1.5em;
+       margin: none
+    }
+    .contact section{
+        width: 80%;
+    }
+    .contact section span{
+        padding: 6px 0;
+        font-size: 15px;
+        border-radius: 5px;
+    }    
+}
