@@ -34,7 +34,7 @@ export const projectList = [
     {
         id: "5",
         name: "My Portfolio",
-        site_link: "temmietope.github.io/portfolio",
+        site_link: "#",
         description: "My Personal Portfolio",
         tech_stack: "ReactJS",
         repo_link: "https://github.com/temmietope/temmietope.github.io"
