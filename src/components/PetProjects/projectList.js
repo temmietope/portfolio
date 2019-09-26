@@ -1,28 +1,28 @@
 export const projectList = [
     {
         id: "1",
-        name: "Employee Management System",
-        site_link: "https://manage-employees.netlify.com/",
-        description: "A simple web based employee management system built using the Github users API",
+        name: "Employee Dashboard",
+        site_link: "https://employeedashboardd.netlify.com/",
+        description: "Employee dashboard UI built using the Github users API",
         tech_stack: "ReactJS",
-        repo_link: "https://github.com/temmietope/employee-management-system"
+        repo_link: "https://github.com/temmietope/dashboard-ui"
     },
     {
         id: "2",
         name: "StarWars Directory",
-        site_link: "https://github.com/temmietope/starwars-directory",
+        site_link: "https://starwars-directory.netlify.com/",
         description: "An app that uses the StarWars API to provide infomation about Starwars Planets, Characters and Starships.",
         tech_stack: "VueJS",
         repo_link: "https://github.com/temmietope/starwars-directory"
     },
     {
         id: "3",
-        name: "Employee Dashboard",
-        site_link: "https://employeedashboardd.netlify.com/",
-        description: "Employee dashboard ui built using the Github users API",
+        name: "Employee Management System",
+        site_link: "https://manage-employees.netlify.com/",
+        description: "A simple web based employee management system built using the Github users API",
         tech_stack: "ReactJS",
-        repo_link: "https://github.com/temmietope/dashboard-ui"
-    },
+        repo_link: "https://github.com/temmietope/employee-management-system"
+    },  
     {
         id: "4",
         name: "Firebase-React Authentication",
@@ -33,19 +33,19 @@ export const projectList = [
     },
     {
         id: "5",
+        name: "My Portfolio",
+        site_link: "temmietope.github.io/portfolio",
+        description: "My Personal Portfolio",
+        tech_stack: "ReactJS",
+        repo_link: "https://github.com/temmietope/temmietope.github.io"
+    },
+    {
+        id: "6",
         name: "Firebase-React Todo-List Application",
         site_link: "https://todolist-track.netlify.com/",
         description: "App that allows the user write a todo and save in a database. The user can mark the todo when completed and can also delete the todo entry.",
         tech_stack: "Firebase, ReactJS",
         repo_link: "https://github.com/temmietope/firebase-react-todo"
-    },
-    {
-        id: "6",
-        name: "My Portfolio",
-        site_link: "temmietope.github.io",
-        description: "My Personal Portfolio",
-        tech_stack: "ReactJS",
-        repo_link: "https://github.com/temmietope/temmietope.github.io"
     },
     {
         id: "7",
