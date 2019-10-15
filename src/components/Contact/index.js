@@ -17,8 +17,12 @@ const Contact = () => {
                 <span><a href="https://github.com/temmietope">
                     <i className="fab fa-github"></i>
                 </a></span>
-                <span><a href="https://twitter.com/temmmie_"><i className="fab fa-twitter"></i
-                ></a></span>
+                <span><a href="https://twitter.com/temmmie_">
+                    <i className="fab fa-twitter"></i>
+                </a></span>
+                <span><a href="https://dev.to/temmietope">
+                    <i class="fab fa-dev" title="temmietope's DEV Profile"></i>
+                </a></span>
                 <span><a href="https://www.instagram.com/temmie_tope/"
                 ><i className="fab fa-instagram"></i
                 ></a></span>
